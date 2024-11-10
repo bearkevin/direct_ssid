@@ -1,0 +1,6 @@
+#!name = Direct_SSID
+#!desc = Direct SSID when connected to included SSIDs
+#!category = Bear
+
+[Script]
+script1 = type=event,event-name=network-changed,script-path=wifi-changed.js
