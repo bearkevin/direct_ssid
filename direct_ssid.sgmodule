@@ -3,4 +3,4 @@
 #!category = Bear
 
 [Script]
-script1 = type=event,event-name=network-changed,script-path=wifi-changed.js
+script1 = type=event,event-name=network-changed,script-path=https://raw.githubusercontent.com/bearkevin/direct_ssid/refs/heads/main/wifi_changed.js
