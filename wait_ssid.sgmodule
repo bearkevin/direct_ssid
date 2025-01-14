@@ -1,0 +1,9 @@
+#!name = Waiting_SSID
+#!desc = Switch Surge to Waiting when connected to included SSIDs
+#!category = Bear
+
+[SSID Setting]
+SSID:Bear suspend=true
+SSID:OurHome suspend=true
+SSID:PC suspend=true
+SSID:PC_5G suspend=true
