@@ -1,4 +1,4 @@
-const WIFI_DONT_NEED_PROXYS = ['PC','Bear','PC_5G','Applewifi','AppleWiFiSecure','OurHome'];
+const WIFI_DONT_NEED_PROXYS = ['Bear','OurHome','PC','PC_5G'];
 const CURRENT_WIFI_SSID_KEY = 'current_wifi_ssid';
 
 if (wifiChanged()) {
