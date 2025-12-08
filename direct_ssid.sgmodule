@@ -2,11 +2,5 @@
 #!desc = Use a script to switch to Direct Mode when connected to the specified Wi-Fi
 #!category = Bear
 
-#[Script]
-#script1 = type=event,event-name=network-changed,script-path=https://raw.githubusercontent.com/bearkevin/direct_ssid/refs/heads/main/wifi_changed.js
-
-[Rule]
-SUBNET, SSID:Bear, DIRECT
-SUBNET, SSID:OurHome, DIRECT
-SUBNET, SSID:PC, DIRECT
-SUBNET, SSID:PC_5G, DIRECT
+[Script]
+script1 = type=event,event-name=network-changed,script-path=https://raw.githubusercontent.com/bearkevin/direct_ssid/refs/heads/main/wifi_changed.js
