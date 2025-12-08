@@ -1,5 +1,5 @@
 #!name = Waiting_SSID
-#!desc = Switch Surge to Waiting when connected to included SSIDs
+#!desc = Switch Surge to Waiting Mode when connected to the specified Wi-Fi
 #!category = Bear
 
 [SSID Setting]

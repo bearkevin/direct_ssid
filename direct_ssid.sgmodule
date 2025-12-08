@@ -1,5 +1,5 @@
 #!name = Direct_SSID
-#!desc = Direct SSID when connected to included SSIDs
+#!desc = Use a script to switch to Direct Mode when connected to the specified Wi-Fi
 #!category = Bear
 
 #[Script]
