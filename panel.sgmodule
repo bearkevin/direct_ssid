@@ -3,5 +3,5 @@
 #!category = Bear
 
 [Panel]
-SubscribeInfo  = title="Nexitally", content="上传流量：0.03GB\n下载流量：0.16GB\n剩余流量：0.19GB\n套餐流量：400GB\n到期时间：2027-02-25 09:46:26", style=info
-SubscribeInfo2 = title="Wcloud",    content="上传流量：0.03GB\n下载流量：0.16GB\n剩余流量：0.19GB\n套餐流量：400GB\n到期时间：2027-02-25 09:46:26", style=info
+SubscribeInfo  = title="Nexitally", content="剩余流量：307.79GB\n套餐流量：500GB\n到期时间：2027-02-20", style=info
+SubscribeInfo2 = title="Wcloud",    content="剩余流量：399.81GB\n套餐流量：400GB\n到期时间：2027-02-25", style=info
