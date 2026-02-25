@@ -1,7 +1,11 @@
 #!name = Bear Node Panel
-#!desc = Display the Subscriptions information
+#!desc = Display Subscriptions information from Cloudflare R2 YAML
 #!category = Bear
 
 [Panel]
-SubscribeInfo  = title="Nexitally", content="剩余流量：307.79GB\n套餐流量：500GB\n到期时间：2027-02-20", icon=externaldrive.fill.badge.icloud,COLOR_1:#FFB6C1
-SubscribeInfo2 = title="Wcloud",    content="剩余流量：399.81GB\n套餐流量：400GB\n到期时间：2027-02-25", icon=internaldrive.fill,COLOR_2:#87CEFA
+Nexitally=script-name=Nexitally,update-interval=3600
+WCloud=script-name=WCloud,update-interval=3600
+
+[Script]
+Nexitally=type=generic,timeout=10,script-path=https://raw.githubusercontent.com/bearkevin/direct_ssid/refs/heads/main/sub_info.js,script-update-interval=0,argument=url=aHR0cHM6Ly9zdWJzLmJlYXJ4eXoudWsvc3ViL25leGl0YWxseS9zdXJnZT9rZXk9eWZqYnUyRXBiS2FaYUZmQkhuUGhONjRYNm9vWUhq&title=Nexitally&icon=externaldrive.fill.badge.icloud&color=#FFB6C1
+WCloud=type=generic,timeout=10,script-path=https://raw.githubusercontent.com/bearkevin/direct_ssid/refs/heads/main/sub_info.js,script-update-interval=0,argument=url=aHR0cHM6Ly9zdWJzLmJlYXJ4eXoudWsvc3ViL3djbG91ZC9zdXJnZT9rZXk9eWZqYnUyRXBiS2FaYUZmQkhuUGhONjRYNm9vWUhq&title=Nexitally&icon=externaldrive.fill.badge.icloud&color=#FFB6C1
